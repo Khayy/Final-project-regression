@@ -1,0 +1,13 @@
+﻿* Encoding: UTF-8.
+LOGISTIC REGRESSION VARIABLES Crangonyx
+  /METHOD=ENTER SoilC_FAC1
+  /METHOD=ENTER Count_Inhab_inpatch
+    /METHOD=ENTER seepsperpatch seeps_per_m2
+   /METHOD=ENTER ROAD_DIST BORDER_DIST
+   /METHOD=ENTER UNIT_LINK
+  /CONTRAST (UNIT_LINK)=Indicator
+  /CRITERIA=PIN(.05) POUT(.10) ITERATE(20) CUT(.5).
+
+
+
+
